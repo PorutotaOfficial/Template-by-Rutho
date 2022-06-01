@@ -148,13 +148,18 @@ ul li a:hover{
     background: rgb(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 90%;
-    padding: 20px 20px;
-
+    padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
     .imgcontainer{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .imgcontainer .content{
+        width: 87%;
     }
 }
 
